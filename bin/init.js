@@ -166,7 +166,7 @@ JWT_SECRET=your_jwt_secret
 			express: '^4.17.1',
 			mongoose: '^5.10.9',
 			dotenv: '^8.2.0',
-			jwt: '^8.5.1',
+			'jsonwebtoken': '^9.0.2',
 			'swagger-ui-express': '^4.1.6',
 			'swagger-jsdoc': '^6.0.0'
 		},

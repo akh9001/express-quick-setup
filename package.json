@@ -1,0 +1,55 @@
+{
+	"name": "express-quick-setup",
+	"version": "1.2.1",
+	"description": "A simple and quick setup for building RESTful APIs with Express.js. This package provides an easy way to scaffold an Express.js project with essential features like controllers, models, routes, middleware, and API documentation using Swagger.",
+	"main": "bin/init.js",
+	"bin": {
+		"express-quick-setup": "./bin/init.js"
+	},
+	"scripts": {
+		"test": "npm test",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/akh9001/express-quick-setup.git"
+	},
+	"keywords": [
+		"express",
+		"expressjs",
+		"middleware",
+		"routing",
+		"error-handling",
+		"setup",
+		"project-initialization",
+		"boilerplate",
+		"starter-kit",
+		"quick-setup",
+		"express-utilities",
+		"developer-tools",
+		"nodejs",
+		"npm-package",
+		"backend-tools",
+		"api",
+		"framework",
+		"automation",
+		"productivity..."
+	],
+	"author": "Asmaa KHALIDY",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/akh9001/express-quick-setup/issues"
+	},
+	"homepage": "https://github.com/akh9001/express-quick-setup#readme",
+	"dependencies": {
+		"body-parser": "^1.20.3",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.1",
+		"jest": "^29.7.0"
+	}
+}
